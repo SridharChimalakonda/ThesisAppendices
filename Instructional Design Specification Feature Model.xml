@@ -1,0 +1,278 @@
+<feature min="1" max="1" name="InstructionalDesignSpecification" type="NONE" id="My Feature Model">
+  <feature min="1" max="1" name="InstructionalDesignSpecification" type="NONE" id="instructionalDesignSpecification">
+    <feature min="1" max="25" name="GoalFeature" type="NONE" id="goalFeature">
+      <feature min="1" max="1" name="GoalClassification" type="NONE" id="goalClassification">
+        <feature min="0" max="1" name="Bloom'sTaxonomy" type="NONE" id="bloomsTaxonomy">
+          <feature min="1" max="1" name="CognitiveProcessDimension" type="NONE" id="cognitiveProcessDimension">
+            <feature min="0" max="1" name="Remember" type="NONE" id="remember">
+            </feature>
+            <feature min="0" max="1" name="Understand" type="NONE" id="understand">
+            </feature>
+            <feature min="0" max="1" name="Apply" type="NONE" id="apply">
+            </feature>
+            <feature min="0" max="1" name="Analyze" type="NONE" id="analyze">
+            </feature>
+            <feature min="0" max="1" name="Evaluate" type="NONE" id="evaluate">
+            </feature>
+            <feature min="0" max="1" name="Create" type="NONE" id="create">
+            </feature>
+          </feature>
+          <feature min="1" max="1" name="KnowledgeProcessDimension" type="NONE" id="knowledgeProcessDimension">
+            <feature min="0" max="1" name="FactualKnowledge" type="NONE" id="factualKnowledge">
+            </feature>
+            <feature min="0" max="1" name="ConceptualKnowledge" type="NONE" id="conceptualKnowledge">
+            </feature>
+            <feature min="0" max="1" name="ProceduralKnowledge" type="NONE" id="proceduralKnowledge">
+            </feature>
+            <feature min="0" max="1" name="MetacognitiveKnowledge" type="NONE" id="metacognitiveKnowledge">
+            </feature>
+          </feature>
+        </feature>
+        <feature min="1" max="1" name="IPCL" type="NONE" id="iPCL">
+          <feature min="1" max="1" name="Reading" type="NONE" id="reading">
+          </feature>
+          <feature min="1" max="1" name="wRiting" type="NONE" id="wRiting">
+          </feature>
+          <feature min="1" max="1" name="aRithmetic" type="NONE" id="aRithmetic">
+          </feature>
+        </feature>
+        <feature min="0" max="1" name="ABCD" type="NONE" id="aBCD">
+          <feature min="1" max="1" name="Audience" type="NONE" id="audience">
+          </feature>
+          <feature min="1" max="1" name="Behaviour" type="NONE" id="behaviour">
+          </feature>
+          <feature min="1" max="1" name="Condition" type="NONE" id="condition">
+          </feature>
+          <feature min="1" max="1" name="Degree" type="NONE" id="degree">
+          </feature>
+        </feature>
+      </feature>
+      <feature min="1" max="1" name="GoalPriority" type="NONE" id="goalPriority">
+        <featureGroup min="1" max="1" id="group">
+          <feature min="0" max="1" name="High" type="NONE" id="high">
+          </feature>
+          <feature min="0" max="1" name="Medium" type="NONE" id="medium">
+          </feature>
+          <feature min="0" max="1" name="Low" type="NONE" id="low">
+          </feature>
+        </featureGroup>
+      </feature>
+      <feature min="0" max="1" name="GoalProgress" type="NONE" id="goalProgress">
+        <feature min="0" max="1" name="PreviousGoal" type="NONE" id="previousGoal">
+        </feature>
+        <feature min="0" max="1" name="NextGoal" type="NONE" id="nextGoal">
+        </feature>
+        <feature min="0" max="1" name="Deadline" type="NONE" id="deadline">
+        </feature>
+      </feature>
+      <feature min="1" max="1" name="GoalPrerequisities" type="NONE" id="goalPrerequisities">
+        <reference min="0" max="1" id="reference1">
+        </reference>
+      </feature>
+      <feature min="0" max="1" name="GoalGranularity" type="NONE" id="goalGranularity">
+        <feature min="0" max="1" name="PlayLevel" type="NONE" id="playLevel">
+        </feature>
+        <feature min="0" max="1" name="ActLevel" type="NONE" id="actLevel">
+        </feature>
+        <feature min="0" max="1" name="SceneLevel" type="NONE" id="sceneLevel">
+        </feature>
+        <feature min="0" max="1" name="InstructionalLevel" type="NONE" id="instructionalLevel">
+        </feature>
+      </feature>
+      <reference min="0" max="1" id="reference0">
+      </reference>
+    </feature>
+    <feature min="1" max="1" name="ProcessFeature" type="NONE" id="processFeature">
+      <feature min="1" max="1" name="InstructionalDesignModel" type="NONE" id="instructionalDesignModel">
+        <featureGroup min="1" max="1" id="group3">
+          <feature min="0" max="1" name="MerrillModel" type="NONE" id="merrillModel">
+            <feature min="1" max="1" name="FirstPrinciples" type="NONE" id="firstPrinciples">
+              <feature min="0" max="1" name="Activation" type="NONE" id="activation">
+              </feature>
+              <feature min="0" max="1" name="Demonstration" type="NONE" id="demonstration">
+              </feature>
+              <feature min="0" max="1" name="Application" type="NONE" id="application">
+              </feature>
+              <feature min="0" max="1" name="Integration" type="NONE" id="integration">
+              </feature>
+              <feature min="0" max="1" name="Task-Oriented" type="NONE" id="taskOriented">
+              </feature>
+            </feature>
+            <reference min="0" max="1" id="reference3">
+            </reference>
+          </feature>
+          <feature min="0" max="1" name="GagneModel" type="NONE" id="gagneModel">
+            <feature min="0" max="1" name="GainAttention" type="NONE" id="gainAttention">
+            </feature>
+            <feature min="0" max="1" name="InformObjectives" type="NONE" id="informObjectives">
+            </feature>
+            <feature min="0" max="1" name="StimulatePriorLearning" type="NONE" id="stimulatePriorLearning">
+            </feature>
+            <feature min="0" max="1" name="PresentContent" type="NONE" id="presentContent">
+            </feature>
+            <feature min="0" max="1" name="ProvideGuidance" type="NONE" id="provideGuidance">
+            </feature>
+            <feature min="0" max="1" name="ElicitPerformance" type="NONE" id="elicitPerformance">
+            </feature>
+            <feature min="0" max="1" name="ProvideFeedback" type="NONE" id="provideFeedback">
+            </feature>
+            <feature min="0" max="1" name="AssessPerformance" type="NONE" id="assessPerformance">
+            </feature>
+            <feature min="0" max="1" name="SupportInternalization" type="NONE" id="supportInternalization">
+            </feature>
+            <reference min="0" max="1" id="reference2">
+            </reference>
+          </feature>
+        </featureGroup>
+        <feature min="0" max="1" name="GenericActivity" type="NONE" id="genericActivity">
+          <feature min="0" max="1" name="LearningActivity" type="NONE" id="learningActivity">
+          </feature>
+          <feature min="0" max="1" name="InterpretedActivity" type="NONE" id="interpretedActivity">
+          </feature>
+          <feature min="0" max="1" name="MonitredActivity" type="NONE" id="monitredActivity">
+          </feature>
+          <feature min="0" max="1" name="SupportActivity" type="NONE" id="supportActivity">
+            <feature min="0" max="1" name="StructureActivity" type="NONE" id="structureActivity">
+            </feature>
+            <feature min="0" max="1" name="GuidanceActivity" type="NONE" id="guidanceActivity">
+            </feature>
+            <feature min="0" max="1" name="CoachingActivity" type="NONE" id="coachingActivity">
+            </feature>
+            <feature min="0" max="1" name="ReflectionActivity" type="NONE" id="reflectionActivity">
+            </feature>
+          </feature>
+        </feature>
+      </feature>
+      <feature min="1" max="25" name="Lesson" type="NONE" id="lesson">
+        <feature min="1" max="25" name="GenericPlay" type="NONE" id="genericPlay">
+          <feature min="1" max="25" name="GenericAct" type="NONE" id="genericAct">
+            <feature min="0" max="1" name="MotivatingAct" type="NONE" id="motivatingAct">
+            </feature>
+            <feature min="0" max="1" name="SyllableBankAct" type="NONE" id="syllableBankAct">
+            </feature>
+            <feature min="0" max="1" name="NewPhonemesAct" type="NONE" id="newPhonemesAct">
+            </feature>
+            <feature min="0" max="1" name="ComparingAct" type="NONE" id="comparingAct">
+            </feature>
+            <feature min="0" max="1" name="FormingWordsAct" type="NONE" id="formingWordsAndSoundsAct">
+            </feature>
+            <feature min="0" max="1" name="FormingSoundsAct" type="NONE" id="formingSoundsAct">
+            </feature>
+            <feature min="0" max="1" name="LearningRulesAct" type="NONE" id="learningRulesAct">
+            </feature>
+            <feature min="0" max="1" name="WritingInstructionsAct" type="NONE" id="writingInstructionsAct">
+            </feature>
+            <feature min="0" max="1" name="ExerciseAct" type="NONE" id="exerciseAct">
+            </feature>
+            <feature min="0" max="1" name="SummaryAct" type="NONE" id="summaryAct">
+            </feature>
+            <feature min="1" max="25" name="GenericScene" type="NONE" id="genericScene">
+              <feature min="0" max="1" name="FamiliarWordsScene" type="NONE" id="familiarWordsScene">
+              </feature>
+              <feature min="0" max="1" name="FormingWordsScene" type="NONE" id="formingWordsScene">
+              </feature>
+              <feature min="0" max="1" name="InspectingSyllableBankScene" type="NONE" id="inspectingSyllableBankScene">
+              </feature>
+              <feature min="0" max="1" name="SimialrSyllablesScene" type="NONE" id="simialrSyllablesScene">
+              </feature>
+              <feature min="0" max="1" name="SyllableBannerScene" type="NONE" id="syllableBannerScene">
+              </feature>
+              <feature min="0" max="1" name="SyllableFormationRulesScene" type="NONE" id="syllableFormationRulesScene">
+              </feature>
+              <feature min="1" max="1" name="GenericInstruction" type="NONE" id="genericInstruction">
+                <reference min="0" max="1" id="reference4">
+                </reference>
+              </feature>
+            </feature>
+          </feature>
+        </feature>
+      </feature>
+    </feature>
+    <feature min="1" max="1" name="ContentFeature" type="NONE" id="contentFeature">
+      <feature min="1" max="25" name="ContentUnit" type="NONE" id="contentUnit">
+        <feature min="0" max="1" name="ContentFragment" type="NONE" id="contentFragment">
+        </feature>
+        <feature min="0" max="1" name="ContentType" type="NONE" id="contentType">
+          <feature min="1" max="1" name="CoreType" type="NONE" id="coreType">
+            <feature min="0" max="1" name="Facts" type="NONE" id="facts">
+            </feature>
+            <feature min="0" max="1" name="Cases" type="NONE" id="cases">
+            </feature>
+            <feature min="0" max="1" name="Rules" type="NONE" id="rules">
+            </feature>
+            <feature min="0" max="1" name="Models" type="NONE" id="models">
+            </feature>
+            <feature min="0" max="1" name="Theories" type="NONE" id="theories">
+            </feature>
+          </feature>
+          <feature min="0" max="1" name="ExtendedType" type="NONE" id="extendedType">
+            <feature min="0" max="1" name="Cognitive" type="NONE" id="cognitive">
+            </feature>
+            <feature min="0" max="1" name="Narrative" type="NONE" id="narrative">
+            </feature>
+            <feature min="0" max="1" name="Abstract" type="NONE" id="abstract">
+            </feature>
+            <feature min="0" max="1" name="Introduction" type="NONE" id="introduction">
+            </feature>
+            <feature min="0" max="1" name="Conclusion" type="NONE" id="conclusion">
+            </feature>
+            <feature min="0" max="1" name="Summary" type="NONE" id="summary">
+            </feature>
+            <feature min="0" max="1" name="Supporting" type="NONE" id="supporting">
+              <feature min="0" max="1" name="Answer" type="NONE" id="answer">
+              </feature>
+              <feature min="0" max="1" name="Demo" type="NONE" id="demo">
+              </feature>
+              <feature min="0" max="1" name="Description" type="NONE" id="description">
+              </feature>
+              <feature min="0" max="1" name="Example" type="NONE" id="example">
+              </feature>
+              <feature min="0" max="1" name="Exercise" type="NONE" id="exercise">
+              </feature>
+              <feature min="0" max="1" name="Explanation" type="NONE" id="explanation">
+              </feature>
+              <feature min="0" max="1" name="Question" type="NONE" id="question">
+              </feature>
+              <feature min="0" max="1" name="Reference" type="NONE" id="reference">
+              </feature>
+              <feature min="0" max="1" name="Remark" type="NONE" id="remark">
+              </feature>
+            </feature>
+          </feature>
+        </feature>
+        <feature min="0" max="1" name="LearningObject" type="NONE" id="learningObject">
+        </feature>
+        <reference min="0" max="1" id="reference5">
+        </reference>
+      </feature>
+    </feature>
+    <feature min="1" max="1" name="UserInterface" type="NONE" id="userInterface">
+      <feature min="0" max="1" name="Language" type="NONE" id="languge">
+      </feature>
+      <feature min="0" max="1" name="ColorTheme" type="NONE" id="colorTheme">
+      </feature>
+      <feature min="0" max="1" name="AnimationStyle" type="NONE" id="animationStyle">
+      </feature>
+      <feature min="0" max="1" name="AnimationSpeed" type="NONE" id="animationSpeed">
+      </feature>
+      <feature min="0" max="1" name="Background" type="NONE" id="background">
+      </feature>
+    </feature>
+    <feature min="1" max="1" name="RawData" type="NONE" id="rawData">
+      <feature min="0" max="1" name="UnicodeText" type="NONE" id="text">
+      </feature>
+      <feature min="0" max="1" name="ImageURL" type="NONE" id="imageURL">
+      </feature>
+      <feature min="0" max="1" name="AudioURL" type="NONE" id="audioURL">
+        <feature min="1" max="1" name="TimeRange" type="NONE" id="timeRange">
+          <feature min="1" max="1" name="Minimum" type="NONE" id="minimum">
+          </feature>
+          <feature min="1" max="1" name="Maxmimum" type="NONE" id="maxmimum">
+          </feature>
+        </feature>
+      </feature>
+      <reference min="0" max="1" id="reference6">
+      </reference>
+    </feature>
+  </feature>
+</feature>

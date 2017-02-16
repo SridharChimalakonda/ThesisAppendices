@@ -1,0 +1,572 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology"
+     xml:base="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ActivationPrinciple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ActivationPrinciple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FirstPrinciples"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ActivityGuidelines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ActivityGuidelines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Guidelines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#AnimationSpeed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#AnimationSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#UserInterface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#AnimationStyle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#AnimationStyle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#UserInterface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ApplicationPrinciple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ApplicationPrinciple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FirstPrinciples"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Background -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Background">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#UserInterface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Begin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Begin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GuidelinesData"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#CoachingActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#CoachingActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SupportActivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ColorTheme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ColorTheme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#UserInterface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ComparingAct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ComparingAct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericAct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#DemonstrationPrinciple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#DemonstrationPrinciple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FirstPrinciples"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#End -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#End">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GuidelinesData"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ExerciseAct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ExerciseAct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericAct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FamilarWordsScene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FamilarWordsScene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericScene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FirstPrinciples -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FirstPrinciples">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericInstruction"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericActivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FormingWordsAndSoundsAct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FormingWordsAndSoundsAct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericAct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FormingWordsScene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FormingWordsScene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericScene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GagneModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GagneModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionalDesignModel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#MerrillModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericAct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericAct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericPlay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericInstruction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericInstruction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericInstruction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericScene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericPlay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericPlay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericScene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericScene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericAct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GuidanceActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GuidanceActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SupportActivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Guidelines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Guidelines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionalProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GuidelinesData -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GuidelinesData">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionalProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InspectingSyllableBankScene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InspectingSyllableBankScene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericScene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionGuidelines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionGuidelines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Guidelines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionalDesignModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionalDesignModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionalProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionalProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionalProcess">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#IntegrationPrinciple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#IntegrationPrinciple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FirstPrinciples"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InterpretedActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InterpretedActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericActivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#UserInterface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#LearningActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#LearningActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericActivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#LearningRulesAct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#LearningRulesAct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericAct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Lesson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Lesson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionalProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#MerrillModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#MerrillModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionalDesignModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Metadata -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Metadata">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionalProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Middle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Middle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GuidelinesData"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#MoniteredActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#MoniteredActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericActivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#MotivatingAct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#MotivatingAct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericAct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#NewPhonemesAct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#NewPhonemesAct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericAct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#PlayGuidelines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#PlayGuidelines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Guidelines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ReflectionActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ReflectionActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SupportActivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SceneGuidelines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SceneGuidelines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Guidelines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SimilarSoundsScene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SimilarSoundsScene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericScene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SimilarSyllablesScene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SimilarSyllablesScene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericScene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#StructureActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#StructureActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SupportActivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SummaryAct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SummaryAct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericAct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SupportActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SupportActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericActivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SyllableBankAct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SyllableBankAct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericAct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SyllableBannerScene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SyllableBannerScene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericScene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SyllableFormationRulesScene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SyllableFormationRulesScene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericScene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#UserInterface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#UserInterface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionalProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#WritingInstructionsAct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#WritingInstructionsAct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericAct"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ActivationPrinciple"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ApplicationPrinciple"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#DemonstrationPrinciple"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#IntegrationPrinciple"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ActivityGuidelines"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionGuidelines"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#PlayGuidelines"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SceneGuidelines"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#AnimationSpeed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#AnimationStyle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Background"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ColorTheme"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Language"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Begin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#End"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Middle"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#CoachingActivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GuidanceActivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ReflectionActivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#StructureActivity"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ComparingAct"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#ExerciseAct"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FormingWordsAndSoundsAct"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericScene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#LearningRulesAct"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#MotivatingAct"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#NewPhonemesAct"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SummaryAct"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SyllableBankAct"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#WritingInstructionsAct"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FamilarWordsScene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#FormingWordsScene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GenericInstruction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InspectingSyllableBankScene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SimilarSoundsScene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SimilarSyllablesScene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SyllableBannerScene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SyllableFormationRulesScene"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Guidelines"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#GuidelinesData"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InstructionalDesignModel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Lesson"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#Metadata"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#UserInterface"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#InterpretedActivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#LearningActivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#MoniteredActivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dida/ontologies/2016/5/ProcessOntology#SupportActivity"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
